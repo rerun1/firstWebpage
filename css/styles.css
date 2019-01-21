@@ -1,0 +1,123 @@
+/* ITC cheltenham serif*/
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBoo.eot');
+  src : url('../fonts/cheltenham/CheltBoo.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBoo.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBoo.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBoo.ttf') format('truetype');
+  font-weight: 400; /* cheltenham book */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBooIta.eot');
+  src : url('../fonts/cheltenham/CheltBooIta.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBooIta.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBooIta.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBooIta.ttf') format('truetype');
+  font-weight: 400; /* cheltenham book italic*/
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBol.eot');
+  src : url('../fonts/cheltenham/CheltBol.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBol.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBol.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBol.ttf') format('truetype');
+  font-weight: 700; /* cheltenham bold */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBolIta.eot');
+  src : url('../fonts/cheltenham/CheltBolIta.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBolIta.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBolIta.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBolIta.ttf') format('truetype');
+  font-weight: 700; /* cheltenham bold italic*/
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end cheltenham */
+body {
+  font-size: 24px;
+  margin: 0em;
+  padding: 2em 5em;
+}
+h2 {
+  font-size: .9em;
+  color: grey;
+  font-style: italic;
+}
+h3 {
+  font-size: 1.25em;
+  letter-spacing: .1em;
+  background-color: rgba(128,128,128,0.5);
+  color: rgba(128,128,128,1.0);
+  font-variant-caps: all-small-caps;
+  margin: 0em 0em 1em 0em;
+  padding: 0em 0em .125em .5em;
+}
+img {
+  border: 5px solid grey;
+  margin: .5em 0em;
+}
+ul {
+  list-style-type: disc;
+  margin: .25em 0em;
+}
+li {
+  margin: .5em 0em .5em 0em;
+}
+li:last-of-type {
+  margin: .5em 0em 2em 0em;
+}
+ul > li > ul {
+  list-style-type: none;
+  margin: 0em 0em 2em 2em;
+}
+ul > li > ol {
+  margin: 0em 0em 1em 2em;
+}
+
+
+
+/* cheltenham converted */
+.cheltenham {
+  font-family: 'cheltenham', 'Palatino Linotype', Palatino, Palladio, 'URW Palladio L',
+    'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter',
+    'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow',
+    'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L',
+    Georgia, serif;
+  font-variant: normal;
+}
+.cheltenhamBook {
+  font-style: normal;
+  font-weight: 400;
+}
+.cheltenhamBookItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.cheltenhamBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.cheltenhamBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+/* end cheltenham */
